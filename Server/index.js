@@ -17,7 +17,7 @@ const PORT = 8000;
 
 mongoose
   .connect(
-    "mongodb+srv://anmol:anmol@cluster0.ht2k9ek.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    // mongodb url ""
   )
   .then((e) => console.log("MongoDB Connected"));
 
